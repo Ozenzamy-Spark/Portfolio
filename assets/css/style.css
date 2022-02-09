@@ -189,7 +189,7 @@ button {
     border-radius: 20px;
     position: relative;
     top: 10px;
-    left: -200px;
+    left: -120%;
     z-index: 1;
 }
 
@@ -250,15 +250,83 @@ button {
     text-align: center;
 }
 
+.card {
+    position: relative;
+    left: -130%;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-avatar {
+    width: 60px;
+    height: 60px;
+    background-image: url("../img/me.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    border-radius: 50%;
+}
+
+.card-info > h3 {
+    font-size: 1em;
+    font-weight: 700;
+    color: #2f2f2f;
+}
+
+.card-info > h4 {
+    font-size: 0.8em;
+    font-weight: 600;
+    text-align: center;
+}
+
+.card > .info {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: -15%;
+    right: 2%;
+}
+
+.card > .info > div {
+    margin: 5px;
+    border: none;
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px rgb(206, 203, 203);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card > .info > .phone {
+    color: #98d89a;
+}
+
+.card > .info > .email {
+    color: #b6b2f8;
+}
+
 .right > .shape {
     width: 450px;
-    background-color: #ffa500;
+    background-image: linear-gradient(to right top, #ffa600, red);
     height: 450px;
     border: none;
     border-radius: 50%;
     position: absolute;
-    top: -30%;
-    left: -70%;
+    top: -5%;
+    left: -130%;
     z-index: 0;
+    box-shadow: 10px 5px 5px lightgrey;
 }
 
