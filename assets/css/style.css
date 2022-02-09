@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #fbfbfb;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/******NAVIGATION******/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.brand {
+    font-size: 2em;
+    font-weight: 500;
+    color: #3d3d3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand > span {
+    font-size: 2.2em;
+    font-weight: 800;
+    color: #f39c12;
+}
+
+.brand > small {
+    color: #f1c40f;
+}
+
+.menu-items > a{
+    font-size: 1em;
+    font-weight: 400;
+    margin: 0 20px;
+    color: #3d3d3d;
+}
+
+.contact {
+    border: 2px solid #3d3d3d;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+/******END NAVIGATION******/
+
+/******HERO******/
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left > span {
+    font-size: 0.9em;
+    font-weight: 500;
+    color: #c55f75;
+}
+
+.left > div {
+    position: relative;
+}
+
+.left > div > div {
+    font-size: 3em;
+    font-weight: 700;
+    color: #1b1b1b;
+    position: relative;
+    display: block;
+    z-index: 3;
+}
+
+.left > div > span {
+    width: 120px;
+    height: 120px;
+    border: none;
+    border-radius: 50%;
+    background-color: orange;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.left > div > span > span {
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.left > div > span > span > span {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    background-color: orange;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+button {
+    border: none;
+    padding: 20px;
+    font-size: 0.9em;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.hire {
+    width: 200px;
+    border-radius: 50px;
+    color: white;
+    background-color: #0049ff;
+}
+
+.play {
+    width: 50px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #0049ff;
+}
+
+.social {
+    display: inline-block;
+    margin: 20px 5px;
+    color: #ff5726 !important;
+    padding: 10px;
+    border: 2px solid #ff5726;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+.social:hover {
+    transition-duration: 500ms;
+    transform: rotate(360deg) scale(1.5);
+}
+/******END HERO******/
+
+/******RIGHT******/
+
+.right {
+    position: relative;
+}
+
+.user-research {
+    color: #5d87a8;
+    background-color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 40px;
+    font-size: 1.1em;
+    font-weight: 400;
+    position: relative;
+    z-index: 1;
+}
+
+.great-project {
+    padding: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    top: 10px;
+    left: -200px;
+    z-index: 1;
+}
+
+.great-project > header {
+    font-size: 1em;
+    font-weight: 600;
+    color: #7a8190;
+} 
+
+.great-project > header > span {
+    background-color: #ff0003;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 0.8em;
+}
+
+.great-project > main {
+    font-size: 2em;
+    font-weight: 600;
+    color: #121212;
+}
+
+.great-project > footer {
+    font-size: 0.9em;
+    font-weight: 600;
+    position: relative;
+}
+
+.great-project > footer > label {
+    color: #46d57a;
+}
+
+.great-project > footer > span {
+    position: absolute;
+    bottom: -50px;
+    left: 60px;
+    font-size: 2.5em;
+    font-weight: 600;
+    transform: rotate(-15deg);
+}
+
+.ui-design {
+    color: #9c9c9c;
+    background-color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 40px;
+    font-size: 1.1em;
+    font-weight: 400;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.right > .shape {
+    width: 450px;
+    background-color: #ffa500;
+    height: 450px;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    top: -30%;
+    left: -70%;
+    z-index: 0;
+}
+
